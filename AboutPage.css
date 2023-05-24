@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color:white;
+}
+
+/*This section is for header*/
+#logo img{
+    border-radius: 200px;
+    height: 130px;
+}
+.flex-container-title{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 60px;
+    align-content: center;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    justify-content: center;
+    background-color: bisque;
+}
+
+#title{
+    font-size: 35px;
+    font-family: serif;
+    position: relative;
+    padding-top: 40px;
+    padding-left: 0px;
+    color: coral;
+
+}
+
+/*This section is for menu tabs*/
+.Menu{
+    background-color: coral;
+}
+.flex-container-Menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 2rem;
+    list-style-type: none;
+}
+.flex-container-Menu li{
+    padding-left: 2rem;
+    background-image: url("kalas.png");
+    background-position: 10px 10px;
+    background-size: 1.6rem 1.6rem;
+    background-repeat: no-repeat;
+  
+}
+.menu-tab{
+    padding: 5px;
+    background-color: coral;
+    border-color:white;
+    border-radius: 5px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+    color: white;
+}
+
+.menu-tab:hover{
+    color: red;
+}
+
+/*This section is for image slide show*/
+.flex-container-about{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.image{
+    height: 450px;
+    width: 300px;
+    background-size: cover;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    border: 1px solid black;
+}
+
+.Content h2{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #ffe4c4;
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.templeContent{
+    text-align: justify;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: medium;
+    font-style: normal;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.para{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-family: serif;
+    text-align: justify;
+}
